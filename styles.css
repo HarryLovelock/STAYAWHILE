@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Rushford-Clean;
+    src: url('./Fonts/Rushfordclean-rgz89.otf');
+}
+
+html {
+    background-color: black;
+    font-family: Rushford-Clean, sans-serif;
+    letter-spacing: 2px;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#logo {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+li {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    border: solid gray 1px;
+    height: 60px;
+    align-content: center;
+    width: 250px;
+    letter-spacing: 0px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgba(44, 44, 44, 1);
+    cursor: pointer;
+}
+
+.social {
+    height: 3rem;
+    width: auto;
+    padding-right: 10px;
+    margin: auto 0px;
+    position: absolute;
+}
+
+.social:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#insta {
+    right: 200px
+}
+
+#tiktok {
+    right: 120px;
+}
+
+#youtube {
+    right: 20px;
+}
+
+
+
+
+
+/* Banner */
+
+.banner {
+    height: 600px;
+    width: 100%;
+    background-image: url('./images/Brighton\ 5.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3.5rem;
+    margin-top: 0px;
+}
+
+
+/* About */
+
+.about {
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+}
+
+.about p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+
+/* Gallery */
+
+.gallery {
+    text-align: center;
+}
+
+.gallery h2 {
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.vertical {
+    height: 500px;
+}
+
+.horizontal {
+    height: 500px;
+}
+
+#studio {
+    padding-right: 126px;
+}
+
+.row-3 {
+    padding-right: 109px;
+    position: relative;
+    left: 55px;
+}
+
+
+
+
+/* Band Members */
+
+.band-members {
+    display: flex;
+    padding-top: 30px;
+}
+
+.item {
+    margin: 0px 10px;
+    color: white;
+    text-align: center;
+    /* border: solid gray 1px; */
+}
+
+.item img {
+    padding: 5px;
+    width: 90%;
+    height: auto;
+    justify-self: center;
+}
+
+.item h3 {
+    font-size: 2rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: auto;
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Contact */
+
+.contact {
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-family: sans-serif;
+}
+
+.contact h3 {
+    font-size: 2rem;
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
